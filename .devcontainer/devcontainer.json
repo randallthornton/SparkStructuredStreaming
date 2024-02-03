@@ -1,0 +1,8 @@
+{
+  "name": "Spark Structured Streaming",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "spark-master",
+  "workspaceFolder": "/SparkScripts",
+  "shutdownAction": "stopCompose",
+  "privileged": true
+}
